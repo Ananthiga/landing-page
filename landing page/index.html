@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+            <meta name="viewpoint" content="width-device-width, initial-scale=1.8"/>
+            <link
+                href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+                rel="stylesheet"/>
+            
+            <link rel="stylesheet" href="style.css" />
+            <script src="https://unpkg.com/scrollreveal"></script>
+            <title>Web Design Mastery</title>
+    </head>
+        <body>
+           <header class="header">
+            <nav>
+                <div class="nav_logo"><a href="#">Shree</a></div>
+                <ul class="nav_links">
+                    <li class="link"><a href="#home">HOME</a></li>
+                    <li class="link"><a href="#trending">VACATION</a></li>
+                    <li class="link"><a href="#destination">DESTINATION</a></li>
+                    <li class="link"><a href="#guide">GUIDE</a></li>
+                    <li class="link"><a href="#client">CLIENT</a></li>
+                </ul>
+            </nav>
+
+            <div class="section_container header_container" id="home">
+                <h1>Explore the beauty of the nature  <br> discover the new one</h1>
+                <div class="header_form">
+                    <form action="/">
+                        <div class="input_group">
+                            <label for="destination">Where do you want to go?</label>
+                            <input type="text" placeholder="country,ZIP"/>
+                        </div>
+                        <div class="input_group">
+                            <label for="checkIn">Check In</label>
+                            <input type="text" placeholder="Choose a date"/>
+                        </div>
+                        <div class="input_group">
+                            <label for="checkOut">Check Out</label>
+                            <input type="text" placeholder="Choose a date"/>
+                        </div>
+                        <div class="input_group">
+                            <label for="guests">Guests</label>
+                            <input type="text" placeholder="Number of Guests"/>
+                        </div>
+
+                        <button class="sk">CHECK AVAILABILITY</button>
+                    </form>
+                </div>
+            </div>
+           </header>
+
+           <section class="section_container trending_container" id="trending">
+            <div class="section_header">
+                <h2 class="section_title">VACATION 2024</h2>
+                <div class="section_nav">
+                    <span><i class="ri-arrow-left-s-line"></i></span>
+                    <span><i class="ri-arrow-right-s-line"></i></span>
+                </div>
+            </div>
+
+            <div class="trending_grid">
+                <div class="trending_card">
+                    <img src="image/hiking.jpg"   alt="trending">
+                    <h1>HIKING TOUR</h1>
+                    <p>Hiking Our | Trekking Vacation</p>
+                    <div class="trending_details">
+                        <div class="price">
+                            <p>from</p>
+                           <h3>$897.60</h3>
+                           <p>*price varies</p> 
+                        </div>
+                        <div class="trending_rating">
+                            <div>
+                                <span><i class='ri-star-fill'></i></span>
+                                <span><i class='ri-star-fill'></i></span>
+                                <span><i class='ri-star-fill'></i></span>
+                                <span><i class='ri-star-half-fill'></i></span>
+                                <span><i class='ri-star-line'></i></span>
+                            </div>
+                            <p>4.8 (10)</p>
+                        </div>
+                    </div>
+                    <h5>
+                        <span><i class="ri-time-line"></i></span> 6 days      
+                    </h5>
+                    <p>
+                        <span><i class="ri-check-line"></i></span> cancellation
+                    </p>
+                </div>
+
+                <div class="trending_card">
+                    <img src="image/train.jpg"   alt="trending">
+                    <h1>TRAIN TOUR</h1>
+                    <p>Adventure Journey | Group Tour</p>
+                    <div class="trending_details">
+                        <div class="price">
+                            <p>from</p>
+                            <h3>$665.10</h3>
+                            <p>*price varies</p>
+                        </div>
+                        <div class="trending_rating">
+                            <div>
+                                <span><i class='ri-star-fill'></i></span>
+                                <span><i class='ri-star-fill'></i></span>
+                                <span><i class='ri-star-fill'></i></span>
+                                <span><i class='ri-star-half-fill'></i></span>
+                                <span><i class='ri-star-line'></i></span>
+                        </div>
+                        <p>4.2 (25)</p>
+                    </div>
+                </div>
+                <h5>
+                    <span><i class="ri-time-line"></i></span>  5days
+                </h5>
+                <p>
+                    <span><i class="ri-check-line"></i></span> cancellation
+                </p>
+            </div>
+
+            <div class="trending_card">
+                <img src="image/them.webp"  alt="trending">
+                <h1>AMUSEMENT PARK</h1>
+                <p>Funfairs Carnivals | Picnic Areas</p>
+                <div class="trending_details">
+                    <div class="price">
+                        <p>from</p>
+                        <h3>$753.00</h3>
+                        <p>*price varies</p>
+                    </div>
+                    <div class="trending_rating">
+                        <div>
+                        <span><i class='ri-star-fill'></i></span>
+                        <span><i class='ri-star-fill'></i></span>
+                        <span><i class='ri-star-fill'></i></span>
+                        <span><i class='ri-star-half-fill'></i></span>
+                        <span><i class='ri-star-line'></i></span>
+                    </div>
+                    <p>4.5 (15)</p>
+                </div>
+            </div>
+            <h5>
+                <span><i class="ri-time-line"></i></span>  3days
+            </h5>
+            <p>
+                <span><i class="ri-check-line"></i></span>  cancellation
+            </p>
+            </div>
+            </div>
+            </section>
+
+            <section class="section_container destination_container" id="destination">
+                <div class="section_header">
+                    <h2 class="section_title">Top Destination</h2>
+                    <div class="section_nav">
+                        <span><i class="ri-arrow-left-s-line"></i></span>
+                        <span><i class="ri-arrow-right-s-line"></i></span>
+                    </div>
+                </div>
+
+                <div class="destination_grid">
+                    <div class="destination_card">
+                        <img src="image/madurai.jpg"  alt="destination">
+                        <div class="badge">4.9</div>
+                        <div class="destination_details">
+                            <h4>Madurai</h4>
+                            <p>Meenakshi Amman Temple</p>
+                        </div>
+                    </div>
+
+                    <div class="destination_card">
+                        <img src="image/kerala.webp"  alt="destination">
+                        <div class="badge">4.3</div>
+                        <div class="destination_details">
+                            <h4>Kerala</h4>
+                            <p>Athirapalli Waterfalls</p>
+                        </div>
+                    </div>
+
+                    <div class="destination_card">
+                        <img src="image/manali.jpg"  alt="destination">
+                        <div class="badge">5.1</div>
+                        <div class="destination_details">
+                            <h4>Manali</h4>
+                            <p>Snow-Capped Mountain</p>
+                        </div>
+                    </div>
+
+                    <div class="destination_card">
+                        <img src="image/thailand.jpg"  alt="destination">
+                        <div class="badge">5.4</div>
+                        <div class="destination_details">
+                            <h4>Thailand</h4>
+                            <p>Gulf</p>
+                        </div>
+                    </div>
+
+                    <div class="destination_card">
+                        <img src="image/ladakh.cms"  alt="destination">
+                        <div class="badge">4.9</div>
+                        <div class="destination_details">
+                            <h4>Ladakh</h4>
+                            <p>Leh Bike Trip</p>
+                        </div>
+                    </div>
+
+                    <div class="destination_card">
+                        <img src="image/goa.avif"  alt="destination">
+                        <div class="badge">6.0</div>
+                        <div class="destination_details">
+                            <h4>Goa</h4>
+                            <p>Baga Beach</p>
+                        </div>
+                    </div>
+
+                 </div>
+            </section>
+
+                <section class="section_container seller_container" id="seller">
+                    <div class="section_header">
+                        <h2 class="section_title">Best Seller</h2>
+                        <div class="section_btn">
+                            <button class="btn">Check All</button>
+                        </div>
+                    </div>
+                    <div class="seller_grid">
+                        <div class="seller_card">
+                            <div class="seller_image">
+                                <img src="image/disney.jpg"  alt="seller">
+                                <div class="seller_image_content">
+                                    <div class="badge">20%</div>
+                                    <div class="seller_image_footer">
+                                        <div class="seller_price">
+                                            <p>10 Days | 9 Nights</p>
+                                            <h4>$850.10</h4>
+                                        </div>
+                                        <button class="btn">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="seller_details">
+                                <h4>Magical Disneyland</h4>
+                                <p>Beauty Castle has a hidden attraction</p>
+                            </div>
+                        </div>
+
+                        <div class="seller_card">
+                            <div class="seller_image">
+                                <img src="image/kanni.jpg" alt="seller">
+                                <div class="seller_image_content">
+                                    <div class="badge">25%</div>
+                                    <div class="seller_image_footer">
+                                        <div class="seller_price">
+                                            <p>5 days | 6 nights</p>
+                                            <h4>$674.6</h4>
+                                        </div>
+                                        <button class="btn">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="seller_details">
+                                <h4>Sunset Nature View</h4>
+                                <p>where the ocean's beauty meets your soul's</p>
+                            </div>
+                        </div>
+
+                        <div class="esller_card">
+                            <div class="seller_image">
+                                <img src="image/bridge.avif" alt="seller">
+                                <div class="seller_image_content">
+                                    <div class="badge">30%</div>
+                                    <div class="seller_image_footer">
+                                        <div class="seller_price">
+                                            <p>7 days | 6 nights</p>
+                                            <h4>$556.9</h4>
+                                        </div>
+                                        <button class="btn">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="seller_details">
+                                <h4>Glass Bridge</h4>
+                                <p>Most thrilling cantilever glass bridges</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tour">
+                    <div class="section_container tour_container">
+                        <h4>Watch Our Video Tour</h4>
+                        <div class="Video_container">
+                            <video src="image/river_-_33454 (360p).mp4" autoplay loop muted></video>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="section_container guide_container" id="guide">
+                    <div class="section_header">
+                        <h2 class="section_title">Tour Guides</h2>
+                        <div class="section_nav">
+                            <span><i class="ri-arrow-left-s-line"></i></span>
+                            <span><i class="ri-arrow-right-s-line"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="guide_grid">
+                        <div class="guide_card">
+                            <div class="guide_image">
+                                <img src="image/guide 1.jpg" alt="guide"/>
+                                <div class="guide_socials">
+                            </div>
+                            <span>
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            </span>
+                            <span>
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                            </span>
+                            <span>
+                                <a href="#"><i class="ri-facebook-fill"></i></a>
+                            </span>
+                            </div>
+                            <button class="btn">Follow Me</button>
+                        </div>
+                    </div>
+
+                    
+                    <div class="guide_content">
+                        <div class="guide_details">
+                            <h4>Keijo Shoran</h4>
+                            <p>Museums Guide</p>
+                        </div>
+                        <p>Their choice and interprets the cultural and natural heritage of an area.</p>
+                    </div>
+                </div>
+
+                <div class="guide_grid"> 
+                <div class="guide_card">
+                    <div class="guide_image">
+                        <img src="image/guide 2.jpg" alt="guide">
+                        <div class="guide_socials">      
+                        </div>        
+                        <span>
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="ri-instagram-line"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="ri-facebook-fill"></i></a>
+                        </span>
+                        </div>
+                        <button class="btn">Follow Me</button>
+                    </div>
+                </div>
+                <div class="guide_container">
+                    <div class="guide_details">
+                        <h4>Faheem Khan</h4>
+                        <p>Foreign tourists</p>
+                    </div>
+                    <p>A government-registeed tourist guide, archaeological survey of India</p>
+                </div>
+            </div>
+
+            <div class="guide_grid">
+            <div class="guide_card">
+                <div class="guide_image">
+                    <img src="image/guide 3.jpeg" alt="guide">
+                    <div class="guide_socials">
+                    </div>
+                    <span>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    </span>
+                    <span>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                    </span>
+                    <span>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                    </span>
+                </div>
+                <button class="btn">Follow Me</button>
+            </div>
+        </div>
+        <div class="guide_content">
+            <div class="guide_details">
+                <h4>Kunal Sanklecha</h4>
+                <p>Ocean Guide</p>
+            </div>
+            <p>Hiking and climbing mountains makes travellers experience</p>
+            </div>
+        </div>
+    </div>
+            </section>
+
+                <section class="section_container client_container" id="client">
+                    <div class="section_header">
+                        <h2 class="section_title">Clients Feedback</h2>
+                        <div class="section_nav">
+                            <span><i class="ri-arrow-left-s-line"></i></span>
+                            <span><i class="ri-arrow-right-s-line"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="client_grid">
+                        <div class="client_card">
+                            <div class="client_card_header">
+                                <span><i class="ri-double-quotes"></i></span>
+                                <div class="ratings">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-half-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                </div>
+                            </div>
+                            <p>I had the most incredible experience From booking my train or flights and 
+                                accommodations to discovering unique local activities, everything was 
+                                well-organized. It made my trip stress free trip. </p>
+                                
+                                <div class="client_card_footer">
+                                    <img src="image/cli 1.jpg" alt="client">
+                                    <div class="client_details">
+                                        <h4>Ram</h4>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="client_card">
+                                <div class="client_card_header">
+                                    <span><i class="ri-double-quotes-r"></i></span>
+                                    <div class="rating">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-half-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    </div>
+                                </div>
+                                <p>I've used various tour website, but this one stands out 
+                                    personalized, it includes activities and camping. </p>
+
+                                <div class="client_card_footer">
+                                    <img src="image/cli 2.jpg" alt="client">
+                                    <div class="client_details">
+                                        <h4>Raj</h4>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="client_card">
+                                <div class="client_card_header">
+                                    <span><i class="ri-double-quotes-r"></i></span>
+                                    <div class="rating">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-half-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    </div>
+                                </div>
+                                <p>The customer support team was incredibly helpful in guiding
+                                    through the process, I had a fantastic time exploring a new 
+                                    city.
+                                </p>
+                                
+                                <div class="client_card_footer">
+                                    <img src="image/cli 3.jpg" alt="client">
+                                    <div class="client_details">
+                                        <h4>Sai</h4>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="subscribe">
+                        <div class="section_container subscribe_container">
+                            <h4>Subscribe and be updated</h4>
+                            <form action="/">
+                                <input type="text" placeholder="Please enter your email address">
+                                <button class="btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </section>
+
+                    <footer>
+                        <div class="section_container footer_container">
+                            <div class="footer_col">
+                                <h5>SHREE</h5>
+                                <p>Welcome to shree travels, our travel website is your
+                                    gateway to a world of shree inducing experience. </p>
+                            </div>
+
+                            <div class="footer_col">
+                                <h4>Quick Links</h4>
+                                <a href="#home">Home</a>
+                                <a href="#destination">Destination</a>
+                                <a href="#subscribe">Subscribe</a>
+                                <a href="#">Contact Us</a>
+                                <a href="#">Privacy Policy</a>
+                            </div>
+
+                            <div class="footer_col">
+                                <h4>Features</h4>
+                                <a href="#">Vacation Package</a>
+                                <a href="#">List of Tours</a>
+                                <a href="#">Gallery</a>
+                                <a href="#">Travel on a Budget</a>
+                            </div>
+
+                            <div class="footer_col">
+                                <h4>Follow Us</h4>
+                                <div class="footer_socials">
+                                    <span>
+                                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                                    </span>
+                                    <span>
+                                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    </span>
+                                    <span>
+                                        <a href="#"><i class="ri-instagram-line"></i></a>
+                                    </span>
+                                    <span>
+                                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer_bar">
+                            Copyright 2024 Web development. All rights reserved.
+                        </div>
+                    </footer>
+                    
+           <script src="main.js"></script>
+    </body>
+</html>
